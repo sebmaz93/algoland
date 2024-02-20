@@ -170,3 +170,19 @@ dist
 
 # IntelliJ based IDEs
 .idea
+
+.DS_Store
+
+# Added by cargo
+/target
+
+# Added by go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+go.sum
