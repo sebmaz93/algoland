@@ -1,16 +1,13 @@
-# algo
+# Algoland
 
-To install dependencies:
+A repository exploring algorithms and data structures implemented in TypeScript, Rust, and Go.
 
-```bash
-bun install
-```
+## Languages
 
-To run:
+- TypeScript
+- Rust
+- Go
 
-```bash
-bun run index.ts
-```
+## Contributing
 
-This project was created using `bun init` in bun v1.0.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
-# algoland
+Feel free to contribute new algorithms, data structure implementations, or improvements to existing code!
