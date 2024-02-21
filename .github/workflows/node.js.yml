@@ -23,4 +23,9 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
-      - run: npm test
+      - run: npm run test-ci
+      - name: use ci badge
+        uses: gaelgirodon/ci-badges-action@v1
+        with:
+          gist-id: ee73fac1f1a5b3f749e43605128297cd
+          token: ${{ secrets.ALGOLAND_TS_TEST }}
