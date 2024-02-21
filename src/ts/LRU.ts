@@ -10,6 +10,6 @@ export default class LRU<K, V> {
 
 }
     get(key: K): V | undefined {
-
+return undefined
 }
 }

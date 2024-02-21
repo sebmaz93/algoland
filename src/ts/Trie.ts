@@ -13,6 +13,6 @@ export default class Trie {
 
 }
     find(partial: string): string[] {
-
+        return []
 }
 }

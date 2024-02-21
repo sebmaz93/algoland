@@ -1,7 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="1" errors="0" time="2.494">
-  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:09:25" time="1.299" tests="1">
-    <testcase classname=" quick-sort" name=" quick-sort" time="0.005">
+<testsuites name="jest tests" tests="21" failures="16" errors="0" time="2.353">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:33:39" time="1.248" tests="1">
+    <testcase classname=" two crystal balls" name=" two crystal balls" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:33:39" time="1.274" tests="1">
+    <testcase classname=" DoublyLinkedList" name=" DoublyLinkedList" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.065" tests="1">
+    <testcase classname=" stack" name=" stack" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 9
+Received: undefined
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/Stack.ts:10:24)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.075" tests="1">
+    <testcase classname=" linked-list" name=" linked-list" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 9
+Received: undefined
+    at test_list (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/ListTest.ts:6:25)
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/SinglyLinkedList.ts:6:14)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.05" tests="1">
+    <testcase classname=" min heap" name=" min heap" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: undefined
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/MinHeap.ts:6:25)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.045" tests="1">
+    <testcase classname=" queue" name=" queue" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 5
+Received: undefined
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/Queue.ts:10:26)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.053" tests="1">
+    <testcase classname=" Map" name=" Map" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 0
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/Map.ts:6:24)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.068" tests="1">
+    <testcase classname=" maze solver" name=" maze solver" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 6
++ Received  + 6
+
+  Array [
+-   &quot;xxxxxxxxxx*x&quot;,
+-   &quot;x        x*x&quot;,
+-   &quot;x        x*x&quot;,
+-   &quot;x xxxxxxxx*x&quot;,
+-   &quot;x**********x&quot;,
+-   &quot;x*xxxxxxxxxx&quot;,
++   &quot;xxxxxxxxxx x&quot;,
++   &quot;x*       x x&quot;,
++   &quot;x        x x&quot;,
++   &quot;x xxxxxxxx x&quot;,
++   &quot;x          x&quot;,
++   &quot;x xxxxxxxxxx&quot;,
+  ]
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/MazeSolver.ts:33:36)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.058" tests="1">
+    <testcase classname=" Compare Binary Trees" name=" Compare Binary Trees" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/CompareBinaryTrees.ts:5:33)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.073" tests="1">
+    <testcase classname=" DFS on BST" name=" DFS on BST" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/DFSOnBST.ts:5:27)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.047" tests="1">
+    <testcase classname=" dfs - graph" name=" dfs - graph" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [0, 1, 4, 5, 6]
+Received: null
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/DFSGraphList.ts:5:30)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.071" tests="1">
+    <testcase classname=" Pre order" name=" Pre order" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 10
++ Received  +  1
+
+  Array [
+-   20,
+-   10,
+-   5,
+-   7,
+-   15,
+-   50,
+-   30,
+-   29,
+-   45,
+-   100,
++   0,
+  ]
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/BTPreOrder.ts:5:32)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.057" tests="1">
+    <testcase classname=" post order" name=" post order" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 10
++ Received  +  1
+
+  Array [
+-   7,
+-   5,
+-   15,
+-   10,
+-   29,
+-   45,
+-   30,
+-   100,
+-   50,
+-   20,
++   0,
+  ]
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/BTPostOrder.ts:5:33)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.042" tests="1">
+    <testcase classname=" In order" name=" In order" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 10
++ Received  +  1
+
+  Array [
+-   5,
+-   7,
+-   10,
+-   15,
+-   20,
+-   29,
+-   30,
+-   45,
+-   50,
+-   100,
++   0,
+  ]
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/BTInOrder.ts:5:31)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.049" tests="1">
+    <testcase classname=" bt bfs" name=" bt bfs" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/BTBFS.ts:5:27)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:41" time="0.041" tests="1">
+    <testcase classname=" bfs - graph matrix" name=" bfs - graph matrix" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [0, 1, 4, 5, 6]
+Received: null
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/BFSGraphMatrix.ts:5:32)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:33:39" time="2.1" tests="1">
+    <testcase classname=" binary search array" name=" binary search array" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:33:39" time="2.13" tests="1">
+    <testcase classname=" linear search array" name=" linear search array" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:39" time="2.12" tests="1">
+    <testcase classname=" Trie" name=" Trie" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 5
++ Received  + 1
+
+- Array [
+-   &quot;foo&quot;,
+-   &quot;fool&quot;,
+-   &quot;foolish&quot;,
+- ]
++ Array []
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/Trie.ts:10:36)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:33:39" time="2.132" tests="1">
+    <testcase classname=" quick-sort" name=" quick-sort" time="0.004">
       <failure>Error: expect(received).toEqual(expected) // deep equality
 
 - Expected  - 3
@@ -35,24 +446,8 @@
     at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.256" tests="1">
-    <testcase classname=" linear search array" name=" linear search array" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.271" tests="1">
-    <testcase classname=" two crystal balls" name=" two crystal balls" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.272" tests="1">
-    <testcase classname=" bubble-sort" name=" bubble-sort" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.287" tests="1">
-    <testcase classname=" DoublyLinkedList" name=" DoublyLinkedList" time="0.003">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.297" tests="1">
-    <testcase classname=" binary search array" name=" binary search array" time="0.002">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:33:39" time="2.137" tests="1">
+    <testcase classname=" bubble-sort" name=" bubble-sort" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>

@@ -10,9 +10,9 @@ export default class Stack<T> {
 
 }
     pop(): T | undefined {
-
+        return undefined
 }
     peek(): T | undefined {
-
+        return undefined
 }
 }

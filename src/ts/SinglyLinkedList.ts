@@ -17,11 +17,12 @@ export default class SinglyLinkedList<T> {
 }
     remove(item: T): T | undefined {
 
+        return undefined
 }
     get(idx: number): T | undefined {
-
+        return undefined
 }
     removeAt(idx: number): T | undefined {
-
+        return undefined
 }
 }
