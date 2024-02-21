@@ -1,6 +1,14 @@
 {
     "clearMocks": true,
     "reporters": [ "default", "jest-junit" ],
+    "coverageThreshold": {
+        "global": {
+            "branches": 1,
+            "functions": 1,
+            "lines": 1,
+            "statements": -1
+        }
+    },
     "moduleNameMapper": {
         "@code/(.*)": [
             "<rootDir>/src/ts/$1"
