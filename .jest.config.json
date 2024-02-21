@@ -1,5 +1,6 @@
 {
     "clearMocks": true,
+    "reporters": [ "default", "jest-junit" ],
     "moduleNameMapper": {
         "@code/(.*)": [
             "<rootDir>/src/ts/$1"

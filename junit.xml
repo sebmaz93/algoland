@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="1" errors="0" time="2.494">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-02-21T01:09:25" time="1.299" tests="1">
+    <testcase classname=" quick-sort" name=" quick-sort" time="0.005">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 3
++ Received  + 3
+
+  Array [
++   9,
+    3,
+-   4,
+    7,
+-   9,
+-   42,
++   4,
+    69,
+    420,
++   42,
+  ]
+    at Object.&lt;anonymous&gt; (/Users/sebmaz/Desktop/workspace/algo/src/__tests__/QuickSort.ts:8:17)
+    at Promise.then.completed (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/Users/sebmaz/Desktop/workspace/algo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.256" tests="1">
+    <testcase classname=" linear search array" name=" linear search array" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.271" tests="1">
+    <testcase classname=" two crystal balls" name=" two crystal balls" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.272" tests="1">
+    <testcase classname=" bubble-sort" name=" bubble-sort" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.287" tests="1">
+    <testcase classname=" DoublyLinkedList" name=" DoublyLinkedList" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-21T01:09:25" time="2.297" tests="1">
+    <testcase classname=" binary search array" name=" binary search array" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
