@@ -1,11 +1,18 @@
 {
-  "name": "algo",
+  "name": "algoland",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsconfig-paths-jest": "^0.0.1",
     "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
