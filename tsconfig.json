@@ -8,7 +8,7 @@
     "noImplicitReturns": true,
     "esModuleInterop": true,
     "target": "esnext",
-    "module": "commonjs",
+    "module": "commonJs",
     "baseUrl": "src",
     "paths": {
       "@code/*": [

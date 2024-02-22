@@ -1,15 +1,15 @@
 export default class MinHeap {
-    public length: number;
+  public length: number;
 
-    
 
-    constructor() {
-    }
 
-    insert(value: number): void {
+  constructor() {
+  }
 
-}
-    delete(): number {
-return 0;
-}
+  insert(value: number): void {
+
+  }
+  delete(): number {
+    return 0;
+  }
 }
